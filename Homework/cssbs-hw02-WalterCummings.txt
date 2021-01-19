@@ -1,0 +1,81 @@
+#### NAME: Walter Cummings 
+#### ASSIGNMENT: C# Chapter 2 Homework 
+#### DATE: 1/13/2020
+
+**1. What is a local variable?**
+- A variable within a small seciton of code, such as a method 
+
+**2. What is a statement?**
+- A command that result in an action performed; programming construct that issues a command. (informal: "anything that ends with a semicolon")
+
+(What is an expression? two oprands and 1 operator; Programming construct that evualates to a value.)
+
+**3. What is an identifier?**
+- Names used to identify elements within the program; Synonym: "name" 
+
+**4. What is a keyword?**
+- Identifiers within the language that can't be resused
+
+**5. What is a variable?**
+- A storage location for a value(or temp info); "a variable is a named location in memory that may contain a value" 
+
+**6. How do you declare a variable? How do you assign a value to a variable? Can you have a variable that does not have a value? Can you declare and initialize a variable in a single statement?**
+
+- A variable is declared with the type and name(identifier)
+- The assignment operator (=) is used to assign a value to the variable; takes from the right hand side and places to the left hand side.
+- A variable must be explicitly assigned to use it, but it can be created without assignment
+- You can declare and initialize a variable in the same statement.
+
+**7. What does Visual Studio do when you open a project (a .csproj file) without opening the solution (a .sln file)? Why might this be a problem?**
+- A new solution file (.sln) is created. This can create multiple solution files for the same project.
+
+**8. How are arithmetic operators and variable types related?**
+- Arithmetic operators can be used with variables to change the value of the variable
+
+**9. How do you turn an integer into a string?**
+- Use of the ```toString()``` method
+
+**10. How do you turn a string into an integer?**
+- ```int32.parse()``` method 
+
+**11. What is the difference between precedence and associativity? Give an example where this makes a difference.**
+-precedence can result in different order of execution that has a different outcome; vertical order 
+-Associativity is the direction order used to evaluate expressions; horizontal order
+- (3-1)*5
+
+**12. What is the definite assignment rule?**
+- Before a variable can be used, it has to be initialized
+
+**13. How are the prefix and postfix increment and decrement operators evaluated differently?**
+- Prefix operators are evaluated immediately
+- Postfix operators are evaluated afterwards.
+
+**14. What is string interpolation?**
+-Syntax used to include variables in strings instead of concating them together; using string interpolation you can direct the 
+
+**15. What does the var keyword do?**
+- it is a variable that interprets the value type; allows the compiler to identify the value 
+
+
+
+Notes: 
+
+1. Local Variable
+
+block 1
+ {	
+    car1 //visible throughout 
+    block 2
+    {
+	var2 //ciaible in block 2
+	     //var 1 is also visible here
+    block3
+    {
+      var3 //visible i block 3, also var1 and var3
+    }
+    //var 3 out of scope
+    var2
+    var1
+  }
+  var1 //only
+}

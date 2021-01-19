@@ -1,0 +1,61 @@
+#### NAME: Walter Cummings
+#### ASSIGNMENT: ISTA220 HW01
+#### DATE 1/12/2021 
+**1.  What is a console app? Provides the environment settings, tools, project references, and starter code to develop an application that runs in a command-line interface. This type of application is considered lightweight because there is no graphical user interface.** 
+  
+**2.  List  two  differences  between  .NETFrameworkand  .NETCore.   Note  that  in  this  class,  we  will  bewriting C# applications in .NET Framework and ASP.NET applications in NET Core.: .NET Core is more compatitble version of .NET Framework and works with other operating systems.  .NET Framework has less range of feautres. .NET Core is more portable.**
+
+**3.  What doesMain()(the main method) do in a console application? Main method designates the main entry point.**
+
+**4.  Describe these three files:TextHello.sln, TextHello.csproj, andAssemblyInfo.cs TextHello.sln is a solution file used by Visual Studios to organize projects. TestHello.csproj is a project file which references one or more files containing the sources code. AssemblyInfo.cs is a C# source code that contains information about the assembly (name, version, etc.).** 
+
+**5.  What is the purpose of anamespace? Namespaces are containers that help avoid name clashing issues for items, such as for in classes.**
+
+**6.  Describe specifically what using statements do. Statements are code that dictate a specific action. also called "using delcarations" identify the namespace that is used within the program.**
+
+**7.  What is the entry point for a console app?  What is the entry point for a UWP app? Main method. App.xaml**
+
+**8.  What is anassembly? Assemblies are libraries of copiled code that the application can use (in C#)**
+
+**9.  How many different versions of theWriteLine()method does theConsoleclass contain? 19 different versions.** 
+
+**10.  What is the relationship between an assembly and a namespace? Unique namespaces can be created and compiled in assemblies for others to use. / No relationship. Trick question.**
+
+**11.  What is a graphical app? it is an application that provides a graphical user interface. Does not run in the command console.**
+
+**12.  What does Build do? Used to complies and saves the code. Creating an executable program.**
+
+**13.  (Not in book) What is bytecode?  What is Microsoft CIL? Do you think that CIL is bytecode?  Whyor why not? bytecode is the compliled code that the computer runs. Source code into low-level code. CIL is the bytecode language for the .NET Framework. CIL is a specific type of bytecode language.** 
+
+**14.  What does Debug do? Debug is a process of finding errors in the code execution. How? Drops a log into the file to show errors. Debug sends the compiled code (in this case C#) to an interpretor to debug line by line finding your errors.**
+
+
+
+#13 Notes*: (using a primitive language, such as C)
+
+source code (program) 
+---------------------
+compiler converts code into machine language
+---------------------
+Computer runs the machine language
+
+printf("Hello World!"); looks like this below:
+010011100101101010101010100001110101
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+(Using a write-once run-anywhere program, using C# for example (or Java))
+
+source code (program)
+------------------------
+-compile it to byte code
+for C#, Common Intermediate Language (CIL), or MSIL (Microsoft Intermediate Language)
+-------------------
+bytecode
+------------------
+compiler converts code into machine language
+-------------------
+computer runs the machine language
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+1. program code (software)
+2. compiler (hardware "but really software")
