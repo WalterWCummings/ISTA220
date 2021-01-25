@@ -1,0 +1,37 @@
+
+
+--Name: Walter Cummings
+--File: cssbch3-walter
+--Date: 1/20/2021
+
+--1.  What is a method? named sequesnce of statements; can recieve input and produce output.
+
+--2.  (Not in book) What is the difference between afunctionand aprocedure/subprocedure/subroutine? functiojns: calculates something from a given input; procudure: a set of instructions or commands that give n orderr. 
+
+--3.  What does a returnstatement do? returns a value
+
+--4.  What is an expression bodied method? a simpler way to write a method with only a single expression, an example:int addValues(int leftHandSide, int rightHandSide) => leftHandSide + rightHandSide; 
+
+--5.  What is the scope of a variable? the boundaries in which a varible is valid within or usable. 
+
+--6.  What is a field? a variable declared by a class
+
+--7.  What is an overloadedmethod? a different version of athe same method that takes different parameters. Used for polymorphism.
+
+--8.  How do you call a method that requires arguments? input the specific arguments for the parameters. Inputing the parenthesis to invoke the method. 
+
+--9.  How do you write a method, that is, specify the method definition, that requires a parameter list? [access modifier] [return type] [method name] ([parameter type] [parameter name]) Specify the type of the method, name the method, parameter list, body of the method.
+
+--10.  How do you specify a parameter as optional when defining a method? define a method by providing a default value for the parameter
+
+--11.  How do you pass a argument to a method as a named parameter?  specify the name of the parameter, followed by a colon and the value to use
+
+--12.  How do you return values from a method?  Can you return multiple values from a method, and if so,how? writting a retunr statment; have multiple by having the return startement return a tuple. 
+
+--13.  What is a tuple?  How do you define a method that returns multiple values?  Give an example of amethod that returns multiple values other than the example in the book. a small collection of data;  (int, string) WaltMultipleValues(int varA)
+
+--14.  Examine  the  method  definition  on  page  83  of  the  book.   Desk  check  the  execution  of  this  method.What do you discover?  This is calledrecursion.1   long  f a c t o r i a l  (i n tdataValue )2{3i f  ( dataValue == 1)4return  1;5e l s e6return  dataValue*f a c t o r i a l ( dataValue=1) ;7} Calling a method within the same method. 
+
+--15.  How does the compiler resolve an ambiguity between named arguments and optional parameters? a different parameter list
+
+--16.  The book states:  “A key feature of C# and other languages designed for the .NET Framework is theability to interoperate with applications and components written with other technologies.”  What isthe COM and how is the CLR dependent on the COM? Component Object Model and Common Language Runtime; the CLR is dependent on COM 
