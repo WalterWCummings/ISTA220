@@ -1,7 +1,0 @@
-C:\Users\willc\MSSA2021\ISTA220\Labs\DailyRate\obj\Debug\DailyRate.csprojAssemblyReference.cache
-C:\Users\willc\MSSA2021\ISTA220\Labs\DailyRate\obj\Debug\DailyRate.csproj.CoreCompileInputs.cache
-C:\Users\willc\MSSA2021\ISTA220\Labs\DailyRate\bin\Debug\DailyRate.exe.config
-C:\Users\willc\MSSA2021\ISTA220\Labs\DailyRate\bin\Debug\DailyRate.exe
-C:\Users\willc\MSSA2021\ISTA220\Labs\DailyRate\bin\Debug\DailyRate.pdb
-C:\Users\willc\MSSA2021\ISTA220\Labs\DailyRate\obj\Debug\DailyRate.exe
-C:\Users\willc\MSSA2021\ISTA220\Labs\DailyRate\obj\Debug\DailyRate.pdb
