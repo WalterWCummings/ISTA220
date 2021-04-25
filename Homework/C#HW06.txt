@@ -1,0 +1,26 @@
+
+--Name: Walter Cummings
+--File: C#HW6
+--Date: 27 January 2021
+
+1.  What is anexception? a catch method that allows for the code to run despite a specified error; an error or 
+
+2.  What happens in atryblock if the program executes without errors? Runs without error and continues as normal
+
+3.  How does thecatchmechanism work for unhandled exceptions? the program will exit the method and returns to the calling method; program throws the exception to the enclosing block.  ; handled: exception with a catch block somewhere; unchecked: no catch block; 
+
+4.  What happens in a program if anexception blockfails to handle an particular error? it will result to a catch handle if present, if not the program will terminate. 
+
+5.  What is the parent class for all exceptions?  How does this work? Exception Class; Stores all the various types of exceptions for c#
+
+6.  How do you determine the type of an error? the error prompt will identify the type of error. ; Message property
+
+7.  What is the purpose of integer checking? to controloverflow exception useing the checked and unchecked method
+
+8.  What  is  the  range  of  values  than  a  signed  Int32  type  can  contain?   State  the  lowest  value  and  thehighest value. 2,147,483,648 through -2,147,483,648; MaxValue and MinValue
+
+9.  What is the range of values than an unsigned Int32 type can contain?  State the lowest value and thehighest value.  What is the difference between a signed integer and an unsigned integer?  Can signedintegers and unsigned integers represent the same amount of numbers? MaxValue and MinValue; unisgnedVaules can go higher than signed values.
+
+10.  What does the finally block do? the catch-all, ensure your code runs without fail. 
+
+11.  (Thought question) When would you not use a finally block in a try/catch construction? When you know it's going to work properly. If you want to test the errors.

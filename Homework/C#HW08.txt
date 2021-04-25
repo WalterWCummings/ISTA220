@@ -1,0 +1,31 @@
+
+Name: Walter Cumings
+Date: Feb, 2, 2021
+File: C#HW08
+
+1.  What is the difference betweendeep copyandshallow copy? if one field is a reference type it needs a clone method otherwise the clone method will copy a reference ; when the clone method copies references its a shallow copy 
+
+Sallow copy is a copy of the reference (just on the stack) ; Deep copy - copies from both sources of memory 
+
+2.  What is the value of a reference after you declare and initialize it?   Its the memory location of the actual data.
+
+3.  How do you declare a value type? Give it a type, name, and (optional) assign the value.
+
+4.  How do you declare a reference type? Use the ref keyword 
+
+5.  Does C# allow you to assign NULL to a value type? Yes - using the "int? Walt" or "var? name"
+
+6.  Can you assign a nullable value type to a non-nullable variable of the same type?  Why or why not? No. A non-nullable value rquires a specified range of results. NULL is the absence of any value. 
+
+7.  What is the difference between the stack and the heap? Stack is memory piled ontop of one anohter. Heaps are piles of memory; reference types are created here. (Heaps is in the operating system - unorganized) (Stacks are organized "packaged data")
+
+8.  What does it mean when we say that all classes are specialized types? all classes are ST of the system.object and you can create a variable that can refer to any ref type
+
+
+9.  What does ref do? keyword that signals the C# complier to generate a code that passes a reference to the argument (not a copy) Direct link to the original. 
+
+10.  What does out do? allows the method to initialize the parameter. 
+
+11.  Describe boxing and unboxing in your own words. Boxing: automatic copying of an item from a stack to a heap. Unboxing: compiler extracting the values from the box and copies into a var
+
+12.  What does cast do? Specifies the data referenced in an object has a type.

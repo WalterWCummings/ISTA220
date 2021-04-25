@@ -1,0 +1,67 @@
+
+
+
+1.  How does inheritance promote the principle of don’t repeat yourself (DRY)?
+Inhertiance allows you to use a main class to govern multiple subclasses if they are closely related to one another. 
+Derived class to mirror functions of base classes. ; save one repeating code and store it in a function/procedure
+
+
+
+
+2.  What is the syntax of a derived class that inherits from a base class?
+derivedclass: baseclass
+
+
+
+3.  Do all user defined types (classes and structs) inherit from some base class?  If so, what is it?
+Yes; System.Object class
+Struct cannot inherit from 
+
+
+
+
+4.  What happens if you do not have a default constructor in a base class when creating a derived class?
+Compiletime-error; A default constructor will be made
+
+
+
+5.  Can you assign a variable of a derived class to another variable of its base class?  Why or why not?
+Yes; The variables of the base class are 
+
+
+
+6.  Can you assign a variable of a derived class to another variable of of a derived class of its base class?Why or why not?
+no
+No
+
+
+7.  Can you assign a variable of a base class to another variable of a derived class?  Why or why not?
+yes, you'd need to note that the new varible will have the elements of the derived class, not the base.
+
+
+
+8.  Under  what  circumstances  would  you  want  to  use  thenewkeyword  when  defining  a  method  in  aderived class?
+Replacing existing data in the base class
+
+
+9.  What is avirtualmethod?  Why would you want to define a virtual method?
+When you want a method within a method of the same class.
+
+
+
+10.  What doesoverridedo?  Why does it do it?
+The same signature method can be called but will have it's own function and class; if you wanted to 
+
+
+
+11.  How do you define anextension type?
+
+
+
+
+12.  Why do you define anextension type?
+Extend the initial class with additional static methods 
+
+
+
+13.  (Not in book) Explain theLiskov substitution principle.

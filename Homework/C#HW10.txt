@@ -1,0 +1,63 @@
+Name: Walter Cummings
+File: CSharpCh10
+Date: Feb 11, 2021
+
+
+1.  What does an array look like in memory? a block of unorganized contigious memory 
+
+
+
+2.  Where is memory allocated to hold an array, on the stack or on the heap? The heap, as it is an object. 
+
+
+3.  Where is memory allocated to hold an array reference, on the stack or on the heap? Reference is on the stack 
+
+
+4.  Can an array hold values of different types?  This is a trick question, the answer is, “It depends.”  What determines the types that an array can hold? 
+Arrays can contain any type of element value (primitive types or objects), but you can't store different types in a single array. You can have an array of integers or an array of strings or an array of arrays, but you can't have an array that contains, for example, both strings and integers.
+
+Note:(Description of an array: The way the computer accesses the elements of an array is by 
+point arithmetic. The formula ismemory_address + (type_size * index)
+myArray[4354]
+
+
+
+5.  Describe the syntax of the condition for a foreach loop.
+foreach(data_type var_name in collection_variable)
+
+
+
+
+6.  How do you make a deep copy of a array? Using the deepclone method. However, usually there are references within the array so the objects within the array are made shallow copies. ; create a new instance and copy element by element. 
+
+
+
+7.  What is the difference in the syntax between a multi-dimensional array and an array of arrays?
+int[] pins; // Personal Identification Numbers
+int[,] items = new int[4, 6];
+
+
+
+8.  What is the difference in the uses for a multi-dimensional array and an array of arrays?  In other words,what determines whether you would use one as opposed to the other?
+Array of arrays are faster than multi-dimensional arrays and can be used more effectively while multip-dim arrays have cleaner syntax. ; Multideminsional are larger in memory and jagged are individual blocks of memory
+multip:+ int[,] dakin = new int[3,4];
+jagged: int[][] jay = new int[4][3];
+
+
+
+9.  How  do  you  “flatten”  a  multidimensional  array?   In  other  words,  take  something  that  looks  like  amatrix
+1    2    34    5    67    8    9
+and turn it into an array [1,2,3,4,5,6,7,8,9]?  Write the code to do this in English.
+To flatten an array means to reduce the dimensionality of an array. In simpler terms, it means reducing a multidimensional array to a specific dimension. let arr = [[1, 2],[3, 4],[5, 6, 7, 8, 9],[10, 11, 12]]; and we need to return a new flat array with all the elements of the nested arrays in their original order.
+
+multip:+ int[,] dakin = new int[3,4];
+jagged: int[]flattened = new int [s.Length * t.length]
+for(s loop)
+for (t loop)
+flatten[expression] = s[] t[]
+
+
+
+
+10.  (Thought question) When we use aforloop, we can change the values of the array elements insidethe loop.  When we use aforeachloop, we cannot change the values of the arry elements inside theloop.  Why not?  How isfordifferent fromforeach?
+Using for loop we can iterate a collection in both direction, that is from index 0 to 9 and from 9 to 0. But using for-each loop, the iteration is possible in forward direction only. When it goes to loop through, foreach copies the current array to a new one for the operation.

@@ -1,0 +1,62 @@
+Name: Walter Cummings
+File: CH9C#
+Date: Feb 9th, 2021
+
+
+
+
+--1.  What is an enum? a special class that represents a group of constants. 
+
+
+--2.  Declare an enum for military ranks, either officer or enlisted.  Name it Ranks.  What are the symbols,like Private, Corporal, Sergeant or Lieutenant, Captain, Major? 
+enum Ranks {E1, E2, E,3, O1, O2, ...*}
+
+
+--3.  Using the Ranks enum, assign a rank to yourself and a friend. 
+Enum Willie (E1)
+Enum Carter(E9)
+enum Ranks Willie = Ranks.Private; Ranks Carter = Ranks.SergeantMajor.
+
+
+--4.  Determine the numeric index of particular ranks, using the Ranks enum.
+enum_ranks (0,1,2,3,4,5)
+
+
+--5.  How do you select the type of an enum? by default the enum is made into an int but you can specify the changes using the : syntax and specifying the type. 
+
+
+--6.  What is a struct? a value type data type. Stored in the stack to be used to reduce memory costs and better memory management \. Can be used to represent a record. ; 
+
+
+--7.  List some differences between classes and structs. Classes are reference types and structs are value types. Structures do not support inheritence. Structures cannot have default constructor.
+
+
+--8.  Are structs stored on the stack or on the heap?  What about enums? both are stored on the Stack. Structs are allocated on the stack, if a local function variable, or on the heap as part of a class if a class member.
+
+--9.  Review the documentation for the C#System.Int32struct.  List the fields.  List the methods.
+it represents 32bit signed integgers (int data types) starting from -2,147,483,648 to 2,147,483,648. Fields: MaxValue, MinValue
+
+Methods: CompareTo, Equals, GetHashCode, GetTypeCode, Parse, ToString, TryFormat, TryParse
+
+
+--10.  Declare a struct named DOD with four branches. enum DOD struct DOD
+{
+private string _Army,
+ private string _Navy,
+ private string _Marines,
+ private string _AirForce
+ 
+ public DOD(string airforce, string army, string navy, string marines)
+ {
+ _airforce = airforce;
+ }
+
+
+--11.  Why can’t you create a default constructor for a struct?
+struct cannot include a parameterless constructor 
+
+
+--12.  What is CIL? What does the CLR do to the CIL?
+CIL (Common Intermediate Language) is a bytecode and the language of the . NET platform into which are compiled source code written in high level languages. The code that runs under the Common Language Runtime is termed as the Managed Code. In other words, you can say
+
+that CLR provides a managed execution enviornment for the .NET programs by improving the security, including the cross language integration and a rich set of class libraries etc. CLR is present in every .NET framework version. 
